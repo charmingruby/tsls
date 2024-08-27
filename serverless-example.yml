@@ -28,7 +28,7 @@ provider:
 
 functions:
   hello:
-    handler: src/functions/hello.handler
+    handler: src/lambdas/health/hello.handler
     events:
       - httpApi:
           path: /
